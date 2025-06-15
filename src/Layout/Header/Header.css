@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 250px;
+  background-color: rgb(234, 217, 217);
+}
+.header_container .logo {
+  text-decoration: none;
+  color: inherit;
+}
+.header_container ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.header_container li a {
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=Header.css.map */

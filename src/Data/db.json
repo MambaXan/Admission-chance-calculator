@@ -1,0 +1,115 @@
+{
+    "universities": [
+      {
+        "id": 1,
+        "name": "Harvard University",
+        "country": "США",
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "acceptanceRate": 0.04,
+        "website": "https://www.harvard.edu/",
+        "ranking": 1
+      },
+      {
+        "id": 2,
+        "name": "Massachusetts Institute of Technology",
+        "country": "США",
+        "minIELTS": 7.0,
+        "minTOEFL": 100,
+        "minSAT": 1520,
+        "acceptanceRate": 0.07,
+        "website": "https://www.mit.edu/",
+        "ranking": 2
+      },
+      {
+        "id": 3,
+        "name": "University of Oxford",
+        "country": "Великобритания",
+        "minIELTS": 7.0,
+        "minTOEFL": 100,
+        "minSAT": 1470,
+        "acceptanceRate": 0.17,
+        "website": "https://www.ox.ac.uk/",
+        "ranking": 3
+      },
+      {
+        "id": 4,
+        "name": "Stanford University",
+        "country": "США",
+        "minIELTS": 7.0,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "acceptanceRate": 0.05,
+        "website": "https://www.stanford.edu/",
+        "ranking": 4
+      },
+      {
+        "id": 5,
+        "name": "University of Cambridge",
+        "country": "Великобритания",
+        "minIELTS": 7.0,
+        "minTOEFL": 100,
+        "minSAT": 1460,
+        "acceptanceRate": 0.21,
+        "website": "https://www.cam.ac.uk/",
+        "ranking": 5
+      },
+      {
+        "id": 6,
+        "name": "ETH Zurich",
+        "country": "Швейцария",
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": 1400,
+        "acceptanceRate": 0.27,
+        "website": "https://ethz.ch/",
+        "ranking": 6
+      },
+      {
+        "id": 7,
+        "name": "National University of Singapore",
+        "country": "Сингапур",
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minSAT": 1350,
+        "acceptanceRate": 0.05,
+        "website": "https://www.nus.edu.sg/",
+        "ranking": 11
+      },
+      {
+        "id": 8,
+        "name": "Lomonosov Moscow State University",
+        "country": "Россия",
+        "minIELTS": 6.0,
+        "minTOEFL": 80,
+        "minSAT": 1300,
+        "acceptanceRate": 0.15,
+        "website": "https://www.msu.ru/",
+        "ranking": 78
+      },
+      {
+        "id": 9,
+        "name": "University of Tokyo",
+        "country": "Япония",
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": 1400,
+        "acceptanceRate": 0.36,
+        "website": "https://www.u-tokyo.ac.jp/",
+        "ranking": 24
+      },
+      {
+        "id": 10,
+        "name": "Heidelberg University",
+        "country": "Германия",
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minSAT": 1350,
+        "acceptanceRate": 0.13,
+        "website": "https://www.uni-heidelberg.de/",
+        "ranking": 45
+      }
+    ]
+  }
+  
