@@ -54,5 +54,5 @@ The platform includes the following pages:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MambaXan/diplomka.git
+git clone https://github.com/MambaXan/Admission-chance-calculator.git
 cd diplomka
