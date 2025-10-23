@@ -1,0 +1,121 @@
+.subscription {
+  &_container {
+    padding: 61px 20px; // отступы чуть подкорректировал для мобильных
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(227, 227, 227);
+
+    @media (max-width: 900px) {
+      justify-content: center; // центрируем карточки на средних экранах
+      padding: 40px 15px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 30px 10px;
+      gap: 15px;
+    }
+  }
+
+  &_card {
+    width: 350px;
+    height: 625px;
+    border-radius: 35px;
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      transform: translateY(-15px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    ul {
+      margin-top: 20px;
+      padding-left: 0;
+      flex-grow: 1; // чтобы список занимал оставшееся место, равномерно распределяя контент
+      overflow-y: auto; // если пунктов много, появится скролл внутри карточки, не ломая дизайн
+    }
+
+    ul li {
+      list-style: none;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 30px 20px 30px;
+
+      @media (max-width: 480px) {
+        font-size: 18px; // чуть уменьшим шрифт на мобилках, чтобы не сжимать текст
+        margin: 0 15px 15px 15px;
+      }
+    }
+
+    button {
+      width: 290px;
+      height: 55px;
+      border-radius: 14px;
+      background: rgb(50, 50, 50);
+      text-align: center;
+      font-size: 26px;
+      font-weight: 700;
+      margin: auto 30px 30px 30px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: rgb(80, 80, 80);
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+
+      @media (max-width: 480px) {
+        width: 90%; // на мобильных кнопка по ширине почти вся карточки
+        font-size: 22px;
+        margin: auto 15px 20px 15px;
+      }
+    }
+
+    .subscription_plan {
+      font-size: 26px;
+      font-weight: 700;
+      margin: 30px 0 6px 30px;
+
+      @media (max-width: 480px) {
+        font-size: 22px;
+        margin-left: 15px;
+      }
+    }
+
+    .subscription_price {
+      font-size: 40px;
+      font-weight: 700;
+      margin: 0 0 36px 30px;
+
+      @media (max-width: 480px) {
+        font-size: 34px;
+        margin-left: 15px;
+        margin-bottom: 24px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      width: 320px;
+      height: auto; // даём высоту под контент
+      padding-bottom: 20px;
+    }
+
+    @media (max-width: 480px) {
+      width: 100%; // карточка на всю ширину контейнера
+      height: auto;
+      border-radius: 20px;
+    }
+  }
+}
