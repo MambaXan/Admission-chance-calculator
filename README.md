@@ -1,4 +1,4 @@
-# 🎓 Admission Chance Estimator
+# 🎓 Admission Chance Calculator
 
 A web platform that helps applicants assess their chances of admission to a university based on exam results and requirements of specific universities.
 
@@ -17,7 +17,7 @@ The project was created as a part of a thesis with the aim of simplifying the pr
 ## 🛠 Technologies
 
 - React (Frontend)
-- HTML / CSS
+- HTML / SCSS
 - JSON Server (`db.json`) like mock-backend
 - JS algorithm for analyzing the chances of admission
 
